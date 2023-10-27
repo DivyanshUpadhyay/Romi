@@ -1,0 +1,348 @@
+
+nav
+{
+    box-shadow: 0px 0px 10px #0f0f0f;
+}
+
+.nav-item>a
+{
+    color: #a7a7a9;
+
+    margin-right: 20px;
+}
+.nav-item>a:hover
+{
+    color: #fefeff;
+}
+#k
+{
+    font-family: 'Orbitron', sans-serif;
+}
+div {
+    display: block;
+}
+.homesection
+{
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title
+{
+    margin-top: 3.5rem;
+    font-size: 3.7rem;
+    line-height: auto;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #fefeff;
+    letter-spacing: 0;
+   margin-left: 300px;
+}
+.description
+{
+    color: #fefeff;
+    line-height: auto;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0;
+   margin-left: 300px;
+   font-size: 1.4rem;
+   max-width: 30rem;
+}
+@media (max-width: 768px) {
+    .title,
+    .description {
+        margin-left: 0;
+         /* Reset margin for smaller devices */
+    }
+}
+#g
+{
+    background-color : #3eb489;
+}
+#g:hover
+{
+    background-color : #3eb489bd;
+}
+.centercontainer
+{
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  margin-bottom: 80px;
+  
+}
+.container {
+    display: flex;
+    
+  }
+  
+  .item {
+    border: 2px solid #696969c5;
+    color: #fefeff;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    width: 400px;
+    border-radius: 6px;
+  }
+  
+  img {
+    max-width: 100%;
+    margin: 10px;
+    margin-right: 30px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; /* Add some margin to separate image and text */
+  }
+  
+ .content>p {
+    margin-top: 0; /* Reset the top margin for the text */
+    color: #a7a7a9;
+    text-align: left;
+  }
+  #go
+  {
+    color: #fefeff;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;/* Stack items on top of each other for small devices */
+    }
+  }
+  header
+  {
+    border-bottom: #a7a7a9 solid 1px;
+    
+  }
+
+
+.benefits-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+  }
+  
+  .Home-benefit {
+    margin: 10px;
+    display:flex;
+    padding: 100px;
+  }
+  .Home-benefit-title
+  {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .Home-benefit-icon-symbol
+  {
+    margin-right: 60px;
+  }
+  /* Center the title */
+.Home-token-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Home-token-card-info__title {
+    text-align: flex;
+    margin-left: 250px;
+    width:400px ;
+    order: -1; /* Move the title above the cards */
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  /* Style the options as cards */
+  .Home-token-card-options {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .Home-token-card-options .card {
+    /* Style for individual cards within Home-token-card-options */
+    /* You can adjust this to your specific card styles */
+    width: 200px;
+    margin: 10px;
+    padding: 40px;
+    border: 2px solid #ccc; /* Increased border width */
+    text-align: center;
+    background-color: #f2f2f2; /* Background color for the cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 8px; /* Rounded corners */
+    
+  }
+  .box {
+    width: 700px;
+    height: 280px;
+    border: 2px solid rgb(114, 114, 114);
+    margin: 10px;
+    display: inline-block;
+    font-size: large;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.Home-token-card-option-info
+{
+    padding: 20px;
+    margin-left: 50px;
+}
+.Home-token-card-option-apr
+{
+    color: #a7a7a9;
+    padding: 20px;
+}
+.buy>button>a
+{
+    text-decoration: none;
+    color: white;  
+}
+.Home-token-card-option-action
+{
+    display: flex; 
+}
+#white>a
+{
+    text-decoration: none;
+    color: white; 
+}
+@media (max-width: 767px) {
+    .benefits-container {
+      flex-direction: column; /* Stack benefits vertically on small screens */
+    }
+  
+    .Home-benefit {
+      padding: 20px; /* Adjust padding as needed */
+    }
+  
+    .Home-token-card-info__title {
+      font-size: 30px; /* Adjust title font size */
+    }
+  
+    .Home-token-card-options .card {
+      width: 100%; /* Full width on small screens */
+      margin: 10px 0; /* Add vertical spacing between cards */
+      padding: 20px;
+    }
+  
+    .box {
+      width: 100%; /* Full width on small screens */
+      padding: 20px;
+      margin: 10px 0; /* Add vertical spacing between boxes */
+    }
+  }
+  #o
+  {
+    padding-bottom: 40px;
+    border-bottom: #a7a7a9 solid 1px;
+  }
+  footer>div>a>i
+  {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  #f>div
+  {
+    display: inline-block;
+    margin-right: 15px;
+    color: #a7a7a9;
+  }
+#grey
+{
+  color: #a7a7a9;
+  font-size: medium;
+  line-height: normal;
+  word-spacing: normal;
+  font-weight: normal;
+}
+
+.table {
+  border: 1px solid #4d4d4e;
+  border-radius: 0.4rem;
+}
+
+.table th, .table td {
+  border: none;
+  padding: 0.5rem 1rem;
+}
+.App-card {
+  border: 1px solid #4d4d4e;
+  border-radius: 0.4rem;
+  background-color: #0f0f0f;
+  font-size: 1.5rem;
+}
+
+.App-card-title {
+  font-size: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #4d4d4e;
+  padding-bottom: 0.5rem;
+}
+
+.App-card-content {
+  border: none;
+}
+
+.App-card-row {
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 5px;
+  color: #68686b;
+  font-weight: bold;
+}
+
+/* Add more styles or overrides as needed */
+.App-card-row {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.label {
+  flex: 1; /* Distribute available space equally */
+  text-align: left;
+}
+
+.Tooltip {
+  flex: 1; /* Distribute available space equally */
+  text-align: right;
+}
+.j
+{
+  text-align: flex;
+    margin-left: 250px;
+}
+.Tooltip-handle
+{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color: #f2f2f2;
+}
+
+#pp
+{
+  display: inline-block;
+}
+footer{
+  background-color: #0f0f0f;
+}
+@media screen and (max-width: 768px) {
+  /* Add your responsive styles here */
+  footer > div > a > i {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .j {
+    margin-left: 0; /* Adjust as needed */
+  }
+}
